@@ -16,5 +16,3 @@ target_link_libraries(test_usb ${OpenCV_LIBS} ${realsense2_LIBRARY} ${glfw3_LIBR
 add_executable(write_firmware write_firmware.cpp)
 target_link_libraries(write_firmware usb-1.0)
 
-#add_executable(rs_image rs_image.cpp)
-#target_link_libraries(rs_image ${OpenCV_LIBS} ${realsense2_LIBRARY} ${glfw3_LIBRARY} ${OPENGL_LIBRARIES} ${GLUT_LIBRARY})
